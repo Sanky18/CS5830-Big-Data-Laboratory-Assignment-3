@@ -15,15 +15,15 @@ The Repository structure consists of the following directories and files:
 ## Building the Repository and the Data Pipeline
 
 1. **Clone the Repository:** 
-   Clone the repository from the remote repository to your local machine.
+   Clone the repository from the remote repository to our local machine.
 2. **Navigate to the Project Directory:** 
-   Change your current directory to the cloned repository.
+   Change our current directory to the cloned repository.
 3. **Initialize Git:** 
    Initialize Git in the project directory.
 4. **Create a .gitignore File:** 
-   Create a `.gitignore` file to specify files and directories that should be ignored by Git. You can create this file manually or use tools like [gitignore.io](https://www.gitignore.io/).
+   Create a `.gitignore` file to specify files and directories that should be ignored by Git. we can create this file manually or use tools like [gitignore.io](https://www.gitignore.io/).
 5. **Create a .dvc Directory:** 
-   Initialize Data Version Control (DVC) in the project directory.
+   Initialize Data Version Control (DVC) in the repositor directory.
 6. **Install Dependencies:** 
    Install the required Python dependencies specified in the `requirements.txt` file.
 7. **Start Apache Airflow:** 
