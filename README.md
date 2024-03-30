@@ -30,6 +30,5 @@ distribution across the specified time frame.*
 https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/805f6d4a-f9ee-42be-89f6-4cd4c460ffca
 
 *The series of geomaps depict climatological data for the month of Jan 2024, focusing on Hourly Wet Bulb Temperature, Hourly Pressure Tendency, Hourly Relative Humidity,
-and Hourly Wind Speed. Each map provides a spatial representation of the respective param-
-eter’s distribution across the specified time frame.*
+and Hourly Wind Speed. Each map provides a spatial representation of the respective parameter’s distribution across the specified time frame.*
 
