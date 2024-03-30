@@ -12,7 +12,7 @@ The Repository structure consists of the following directories and files:
 - `requirements.txt`: List of Python dependencies.
 - `docker-compose.yml`: Docker Compose file for containerized deployment.
 - `dockerfile`: Dockerfile for building Docker images.
-### Building the repository and the data pipeline
+## Building the repository and the data pipeline
 1. **Clone the Repository:** 
    Clone the repository from the remote repository to our local machine.
 2. **Navigate to the Project Directory:** 
@@ -31,6 +31,7 @@ If not already installed, set up Apache Airflow according to its documentation a
 If using Docker Compose for containerized deployment, start the services defined in `docker-compose.yml`.
 9. **Run DAGs:** 
 Once Airflow is running, enable and trigger the DAGs from the Airflow UI. The DAGs should start running according to their schedules.
+Now, for our assignment our dags contains only two pipeliens:
 ### DataFetch Pipeline (Task 1)
 **Steps Involved:**
 1. **Fetch Data:** Fetch the HTML page containing location-wise datasets for a specific year from the NCEI website.
