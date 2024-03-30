@@ -16,7 +16,7 @@ The Repository structure consists of the following directories and files:
 1. **Clone the Repository:** 
    Clone the repository from the remote repository to our local machine.
 2. **Navigate to the Project Directory:** 
-Change your current directory to the cloned repository:
+Change our current directory to the cloned repository:
 3. **Initialize Git:** 
 Initialize Git in the project directory:
 4. **Create a .gitignore File:** 
@@ -40,10 +40,13 @@ Now, for our assignment our dags contains only two pipeliens:
 4. **Zip Files:** Compress the downloaded CSV files into a ZIP archive.
 5. **Move Zip File:** Move the ZIP archive to a specified location.
 **Implementation:**
-- The DataFetch pipeline is orchestrated using Apache Airflow.
+- The DataFetch pipeline is executed using Apache Airflow.
 - It consists of Bash Operators and Python Operators to perform various tasks such as fetching data, selecting files, fetching files, zipping files, and moving the zip file.
 - The pipeline is configured to run for a specific year.
 ![Pipeline-1](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/606afaed-b163-408b-8d55-5e9d30b6abe5)
+
+10. **DVC add:**
+once the all data is archived in specified location in cloned repository, we can track those data by dvc. 
 
 ## Results
 The results of the Analytics Pipeline includes, Geospatial visualizations (geomaps) for dif-
