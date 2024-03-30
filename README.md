@@ -12,6 +12,7 @@ The Repository structure consists of the following directories and files:
 - `requirements.txt`: List of Python dependencies.
 - `docker-compose.yml`: Docker Compose file for containerized deployment.
 - `dockerfile`: Dockerfile for building Docker images.
+### Building the repository and the data pipeline
 
 ## Results
 The results of the Analytics Pipeline includes, Geospatial visualizations (geomaps) for dif-
