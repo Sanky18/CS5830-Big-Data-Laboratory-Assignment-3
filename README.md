@@ -42,6 +42,7 @@ Once Airflow is running, enable and trigger the DAGs from the Airflow UI. The DA
 - The DataFetch pipeline is orchestrated using Apache Airflow.
 - It consists of Bash Operators and Python Operators to perform various tasks such as fetching data, selecting files, fetching files, zipping files, and moving the zip file.
 - The pipeline is configured to run for a specific year.
+![Pipeline-1](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/606afaed-b163-408b-8d55-5e9d30b6abe5)
 
 ## Results
 The results of the Analytics Pipeline includes, Geospatial visualizations (geomaps) for dif-
