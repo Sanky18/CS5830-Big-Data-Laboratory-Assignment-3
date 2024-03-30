@@ -63,6 +63,7 @@ The Repository structure consists of the following directories and files:
        Generate geospatial visualizations using the average values of combined data. Additionally, take the magnitude of negative average values into account, where larger average values result in bigger dots on the geomaps, while smaller magnitudes lead to negligible dot sizes.
        
 ![Pipeline-2](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/a534a9e9-244c-4370-af90-6ebc3fade2af)
+
 12. Execute the above two DAG pipelines for the years 2023 and 2024, filtering those columns which have at least one month hourly data for required fields.
 
 ## Results
