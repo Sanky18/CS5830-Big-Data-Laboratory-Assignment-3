@@ -19,6 +19,7 @@ ferent parameters. We have shown some sample animation of geomaps for two differ
 2024, for month july and jan respectively.
 
 *Animated illustration of the process*
-![HourlyWindSpeed2024](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/695516fc-d597-4209-be0b-3949779d6892)
+https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/a8dc9c31-5c87-43cc-863a-9ec4b4c0c22b
+
 
 
