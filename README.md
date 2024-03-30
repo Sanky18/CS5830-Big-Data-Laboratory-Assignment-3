@@ -18,4 +18,3 @@ The results of the Analytics Pipeline includes, Geospatial visualizations (geoma
 ferent parameters. We have shown some sample animation of geomaps for two different years 2023 and
 2024, for month july and jan respectively.
 
-1
