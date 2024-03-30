@@ -45,6 +45,7 @@ The Repository structure consists of the following directories and files:
        Move the ZIP archive to a specified location.
     6. **DVC Add:** 
        Once all the data is archived in the specified location inside the cloned repository, track it using DVC with the command `dvc add`.
+       
 ![Pipeline-1](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/6b513d63-7029-4742-83c5-b0d1e9c20667)
 
 11. **Analytics Pipeline (Task 2) Steps:**
@@ -60,8 +61,7 @@ The Repository structure consists of the following directories and files:
         Combine data from different locations for at least one month files into a single DataFrame.
     6. **Generate Geomaps:** 
        Generate geospatial visualizations using the average values of combined data. Additionally, take the magnitude of negative average values into account, where larger average values result in bigger dots on the geomaps, while smaller magnitudes lead to negligible dot sizes.
-![Pipeline-2](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/0bb92e50-4516-492b-8135-29cc604e5eb8)
-
+![Pipeline-2](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/a534a9e9-244c-4370-af90-6ebc3fade2af)
 12. Execute the above two DAG pipelines for the years 2023 and 2024, filtering those columns which have at least one month hourly data for required fields.
 
 ## Results
