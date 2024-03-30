@@ -13,7 +13,10 @@ The Repository structure consists of the following directories and files:
 - `docker-compose.yml`: Docker Compose file for containerized deployment.
 - `dockerfile`: Dockerfile for building Docker images.
 ### Building the repository and the data pipeline
-
+1. **Clone the Repository:** 
+   Clone the repository from the remote repository to our local machine.
+2. ** Initialise the dvc**
+   
 ## Results
 The results of the Analytics Pipeline includes, Geospatial visualizations (geomaps) for dif-
 ferent parameters. We have shown some sample animation of geomaps for two different years 2023 and
