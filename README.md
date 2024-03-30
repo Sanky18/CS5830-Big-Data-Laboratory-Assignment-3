@@ -15,8 +15,34 @@ The Repository structure consists of the following directories and files:
 ### Building the repository and the data pipeline
 1. **Clone the Repository:** 
    Clone the repository from the remote repository to our local machine.
-2. ** Initialise the dvc**
-   
+2. **Navigate to the Project Directory:** 
+Change your current directory to the cloned repository:
+3. **Initialize Git:** 
+Initialize Git in the project directory:
+4. **Create a .gitignore File:** 
+Create a `.gitignore` file to specify files and directories that should be ignored by Git. You can create this file manually or use tools like [gitignore.io](https://www.gitignore.io/).
+5. **Create a .dvc Directory:** 
+Initialize Data Version Control (DVC) in the project directory:
+6. **Install Dependencies:** 
+Install the required Python dependencies specified in the `requirements.txt` file:
+7. **Start Apache Airflow:** 
+If not already installed, set up Apache Airflow according to its documentation and start the Airflow webserver and scheduler.
+8. **Start Docker Compose:** 
+If using Docker Compose for containerized deployment, start the services defined in `docker-compose.yml`.
+9. **Run DAGs:** 
+Once Airflow is running, enable and trigger the DAGs from the Airflow UI. The DAGs should start running according to their schedules.
+### DataFetch Pipeline (Task 1)
+**Steps Involved:**
+1. **Fetch Data:** Fetch the HTML page containing location-wise datasets for a specific year from the NCEI website.
+2. **Select Files:** Randomly select CSV files from the fetched HTML page.
+3. **Fetch Files:** Download the selected CSV files.
+4. **Zip Files:** Compress the downloaded CSV files into a ZIP archive.
+5. **Move Zip File:** Move the ZIP archive to a specified location.
+**Implementation:**
+- The DataFetch pipeline is orchestrated using Apache Airflow.
+- It consists of Bash Operators and Python Operators to perform various tasks such as fetching data, selecting files, fetching files, zipping files, and moving the zip file.
+- The pipeline is configured to run for a specific year.
+
 ## Results
 The results of the Analytics Pipeline includes, Geospatial visualizations (geomaps) for dif-
 ferent parameters. We have shown some sample animation of geomaps for two different years 2023 and
