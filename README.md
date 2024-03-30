@@ -17,11 +17,6 @@ The Repository structure consists of the following directories and files:
 The results of the Analytics Pipeline includes, Geospatial visualizations (geomaps) for dif-
 ferent parameters. We have shown some sample animation of geomaps for two different years 2023 and
 2024, for month july and jan respectively.
-![Animation](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/695516fc-d597-4209-be0b-3949779d6892)
+!(https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/695516fc-d597-4209-be0b-3949779d6892)
 *Animated illustration of the process*
-<video width="320" height="240" controls>
-  <source src="[https://example.com/video.mp4" type="video/mp4](https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/695516fc-d597-4209-be0b-3949779d6892)">
-  Your browser does not support the video tag.
-</video>
 
-*Video demonstration of the process*
