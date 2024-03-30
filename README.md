@@ -18,8 +18,9 @@ The results of the Analytics Pipeline includes, Geospatial visualizations (geoma
 ferent parameters. We have shown some sample animation of geomaps for two different years 2023 and
 2024, for month july and jan respectively.
 
-*Animated illustration of the process*
-https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/a8dc9c31-5c87-43cc-863a-9ec4b4c0c22b
+
+
+https://github.com/Sanky18/CS5830-Big-Data-Laboratory-Assignment-3/assets/119156783/2f030cfb-ad5f-40ae-8b3d-081404e5324b
 
 
 
